@@ -1,10 +1,49 @@
-<style>
+ /*</style>
 	/* CSS Code */
 	/* Heading */
+		/* Split the screen in half */
+.split {
+	height: 100%;
+	width: 30%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+	left: 0;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(246, 156, 156);
+  }
+  
+  /* Control the right side */
+  .right {
+	right: 0;
+	background-color: red;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+	width: 150px;
+	border-radius: 50%;
+  }
 	h1 {
-		color: orangered;
+		color: rgb(200, 3, 3);
 		font-size: 45px;
 	}
+
 
 	/* 3*3 Grid */
 	#b1, #b2, #b3, #b4, #b5,
@@ -12,8 +51,9 @@
 		width: 80px;
 		height: 52px;
 		margin: auto;
-		border: 1px solid gray;
+		border: 1px solid rgb(0, 0, 0);
 		border-radius: 6px;
+		background-color: rgb(184, 191, 198);
 		font-size: 30px;
 		text-align: center;
 	}
@@ -29,7 +69,7 @@
 		font-family: Verdana,
 			Geneva, Tahoma, sans-serif;
 
-		background-color: dodgerblue;
+		background-color: rgb(88, 152, 212);
 		color: white;
 		font-size: 20px;
 		cursor: pointer;
@@ -57,4 +97,4 @@
 		color: dodgerblue;
 		font-size: 17px;
 	}
-</style>
+/*</style>
